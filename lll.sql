@@ -19,6 +19,6 @@ ALTER USER 'dasss'@'localhost' PASSWORD EXPIRE NEVER;
 GRANT 'lu4dan' TO 'dasss'@'localhost';
 
 -- Устанавливаем роль по умолчанию для пользователя
-SET DEFAULT ROLE 'lu4dan' TO 'dasss'@'localhost';
+SET DEFAULT ROLE 'sdfguirfty' TO 'dasss'@'localhost';
 
 FLUSH PRIVILEGES; -- Применяем изменения
