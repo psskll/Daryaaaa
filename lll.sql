@@ -5,7 +5,7 @@ CREATE ROLE 'lu4dan';
 GRANT CREATE ON *.* TO 'lu4dan';
 
 -- Предоставляем роли права на изменение структуры таблиц в базе данных apteka
-GRANT ALTER ON apteka.* TO 'lu4dan'; -- Добавлена эта строка
+
 
 -- Назначаем привилегии роли для работы с данными в базе данных apteka
 GRANT SELECT, INSERT, UPDATE, DELETE ON apteka.* TO 'lu4dan';
