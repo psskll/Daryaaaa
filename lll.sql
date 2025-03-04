@@ -16,8 +16,6 @@ CREATE USER 'dasss'@'localhost' IDENTIFIED BY '123456987!';
 -- Устанавливаем пароль на неистечение (опционально)
 ALTER USER 'dasss'@'localhost' PASSWORD EXPIRE NEVER;
 
--- Назначаем роль пользователю
-GRANT 'lu4dan' TO 'dasss'@'localhost';
 
 -- Устанавливаем роль по умолчанию для пользователя
 SET DEFAULT ROLE 'lu4dan' TO 'dasss'@'localhost';
